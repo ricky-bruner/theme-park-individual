@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.type-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+    margin-bottom: 1.3em;
+}
+
+.type-container button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c3c745), color-stop(1, #d92727));
+	background:-moz-linear-gradient(top, #c3c745 5%, #d92727 100%);
+	background:-webkit-linear-gradient(top, #c3c745 5%, #d92727 100%);
+	background:-o-linear-gradient(top, #c3c745 5%, #d92727 100%);
+	background:-ms-linear-gradient(top, #c3c745 5%, #d92727 100%);
+	background:linear-gradient(to bottom, #c3c745 5%, #d92727 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c3c745', endColorstr='#d92727',GradientType=0);
+	background-color:#c3c745;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:10px 23px;
+	text-decoration:none;
+	text-shadow:-1px -1px 0px #28662c;
+}
+.type-container button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d92727), color-stop(1, #c3c745));
+	background:-moz-linear-gradient(top, #d92727 5%, #c3c745 100%);
+	background:-webkit-linear-gradient(top, #d92727 5%, #c3c745 100%);
+	background:-o-linear-gradient(top, #d92727 5%, #c3c745 100%);
+	background:-ms-linear-gradient(top, #d92727 5%, #c3c745 100%);
+	background:linear-gradient(to bottom, #d92727 5%, #c3c745 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d92727', endColorstr='#c3c745',GradientType=0);
+	background-color:#d92727;
+}
+.type-container button {
+	position:relative;
+	top:1px;
+}
+.type-container button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*.type-container button{
+    text-transform: capitalize;
+}*/
+header, footer {
+    padding: 1em;
+    text-align: center;
+}
+
+header {
+    height: 500px;
+    background: 
+        linear-gradient( to bottom,
+            rgba(255, 166, 0, 0.8), 
+            rgba(255, 166, 0, 0.6), 
+            rgba(105, 105, 105, 0.4), 
+            rgba(0, 0, 0, .2)),
+        url("https://www.infinity-luxe-chauffeur.com/wp-content/uploads/2018/04/Parc-attraction.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    color: white;
+    font-size: 4em;
+    margin: auto;
+    font-family: 'Norican', cursive;
+    letter-spacing: 3px;
+}
+
+footer {
+    background:
+        linear-gradient( to top,
+            rgba(255, 166, 0), 
+            rgba(255, 166, 0), 
+            rgba(0, 0, 0));
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.park-info-container {
+    background: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.park-info-container p {
+    text-align: left;
+}
+
+
+.attraction-container {
+    background: radial-gradient(circle, dimgrey, black) fixed;
+    color: orange;
+    padding: 1em;
+}

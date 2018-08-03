@@ -1,0 +1,144 @@
+#areaType1 {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight:220;
+    text-shadow: 0px 0px 3px rgb(20, 1, 1), -1px -1px rgb(240, 233, 233), 1px 1px #000;
+}
+
+#areaType1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj2HXsO_V6HQMV001pl7HEI-hmyZD-0ZyDh3diuAM5hMWMkb-VPw"); 
+    opacity: .6;
+}
+
+#areaType2 {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight:220;
+    text-shadow: 0px 0px 3px rgb(20, 1, 1), -1px -1px rgb(240, 233, 233), 1px 1px #000;
+     
+}
+
+#areaType2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThhMIjeTkPilgvN9j5DGUuEBbb1SGMxlTrbkvXe7P2YcrEy4daMA"); 
+    opacity: .5;
+}
+
+#areaType3 {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight:220;
+    text-shadow: 0px 0px 3px rgb(20, 1, 1), -1px -1px rgb(240, 233, 233), 1px 1px #000;
+     
+}
+
+#areaType3:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCsICagf0uVNG-eHIZyLhzWDCFufoJvXx7t_d_Qbd7h3DlfAK7Zw"); 
+    opacity: .5;
+}
+#areaType4 {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight:220;
+    text-shadow: 0px 0px 3px rgb(20, 1, 1), -1px -1px rgb(240, 233, 233), 1px 1px #000;
+     
+}
+
+#areaType4:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Liberty_Bell_2008.jpg/256px-Liberty_Bell_2008.jpg"); 
+    opacity: .5;
+}
+#areaType5 {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight:220;
+    text-shadow: 0px 0px 3px rgb(20, 1, 1), -1px -1px rgb(240, 233, 233), 1px 1px #000;
+     
+}
+
+#areaType5:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7FUX-_CyWjRgxKU7wvHCJk8RmgUvb4eOXfgBttUVGrPFf96F"); 
+    opacity: .5;
+}
+
+#areaType6 {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    font-weight:220;
+    text-shadow: 0px 0px 3px rgb(20, 1, 1), -1px -1px rgb(240, 233, 233), 1px 1px #000;
+     
+}
+
+#areaType6:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7FUX-_CyWjRgxKU7wvHCJk8RmgUvb4eOXfgBttUVGrPFf96F"); 
+    opacity: .5;
+}
+
+    #areaType7 {
+        position: relative;
+        z-index: 1;
+        font-size: 25px;
+        font-weight:220;
+    text-shadow: 0px 0px 3px rgb(20, 1, 1), -1px -1px rgb(240, 233, 233), 1px 1px #000;
+     
+    }
+    
+    #areaType7:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyqJCBXvW_oiOYQUnQJLWCEauDFcaXaVMKhj5u1VQzwWqVAvWcxA"); 
+        opacity: .8;
+    }
+   
