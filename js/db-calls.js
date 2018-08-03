@@ -47,8 +47,8 @@ dbCalls.fetchAttractions = () => {
       });
 };
 
-// dbCalls.fetchAttractions = () => {
-//   return fetch("https://external-data-56670.firebaseio.com/attractions.json")
+// dbCalls.getFilteredAttractions = (key, value) => {
+//   return fetch(`https://external-data-56670.firebaseio.com/attractions.json?orderBy="${key}"&equalTo=${value}`)
 //     .then(res => res.json())
 //     .then((result) => {
 //       // console.log(typeof result);
