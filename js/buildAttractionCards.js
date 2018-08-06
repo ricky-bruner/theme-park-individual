@@ -1,6 +1,6 @@
 "use strict";
 
-let buildAttractions = require("./attraction-cards.js");
+let buildAttractions = require("./attractionCards.js");
 
 function makeAttractionCards(attractions, areaType, attractionType){
     let attractionDiv = document.querySelector(".attraction-content");

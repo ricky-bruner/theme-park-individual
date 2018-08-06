@@ -1,6 +1,6 @@
 "use-strict";
 
-let makeAttractionTypeButtons = require("./attraction-filter.js");
+let makeAttractionTypeButtons = require("./attractionFilter.js");
 
 function beginAttractions(areas, types, attractions){
     let mainAttractionDiv = document.querySelector(".attraction-container");

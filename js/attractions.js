@@ -1,7 +1,7 @@
 "use strict";
 
 let db = require('./db-calls.js');
-let beginAttractions = require('./attraction-build.js');
+let beginAttractions = require('./beginAttractionBuild.js');
 
 let areas;
 let types;

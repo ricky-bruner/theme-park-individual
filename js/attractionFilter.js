@@ -1,6 +1,6 @@
 "use strict";
 
-let makeAttractionCards = require("./make-attraction-cards.js");
+let makeAttractionCards = require("./buildAttractionCards.js");
 
 function makeAttractionTypeButtons(areas, types, attractions, area, areaType){
     let mainAttractionDiv = document.querySelector(".attraction-container");
