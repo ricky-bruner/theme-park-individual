@@ -14,7 +14,8 @@ header {
             rgba(255, 166, 0, 0.8), 
             rgba(255, 166, 0, 0.6), 
             rgba(105, 105, 105, 0.4), 
-            rgba(0, 0, 0, .2)),
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, 0.9)),
         url("https://www.infinity-luxe-chauffeur.com/wp-content/uploads/2018/04/Parc-attraction.jpg");
     display: flex;
     justify-content: center;
@@ -41,39 +42,82 @@ header h1 {
 }
 
 footer {
-    background:
-        linear-gradient( to top,
-            rgba(255, 166, 0), 
-            rgba(255, 166, 0), 
-            rgba(0, 0, 0));
+    background-color: dimgrey;
+    color: white;
 }
 
 footer a {
     text-decoration: none;
-    color: black;
-}
-
-footer a:hover {
     color: white;
 }
 
+footer a:hover {
+    color: lightblue;
+}
+
 .park-info-container {
-    background: black;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3)), 
+        url("https://static1.squarespace.com/static/57d02360be6594f91113feed/t/57d2ce9ff7e0ab51453207ab/1473433361923/nashville-at-night+%281%29.jpg?format=1500w") no-repeat bottom;
+    background-size: cover;
     color: white;
     padding: 1em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.city-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sexy-line1 { 
+    display: block;
+    margin-top: 2em;
+    border: none;
+    width: 100%;
+    color: white;
+    height: 2px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(255, 140, 0, 0.5), darkorange);
+}
+
+.sexy-line2 { 
+    display: block;
+    margin-top: 2em;
+    border: none;
+    width: 100%;
+    color: white;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 140, 0, 0.5), darkorange);
+
+}
+
+.park-info-container h2 {
+    font-size: 2em;
+}
+
+.park-info-container h3 {
+    font-size: 1.4em;
+    display: block;
+    width: 50%
+}
+
+.park-info-container h4 {
+    font-size: .8em;
+}
+
 .park-info-container p {
     text-align: left;
+    width: 60%;
+    margin: auto;
 }
 
 .area-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: radial-gradient(rgb(192, 192, 192), rgb(43, 43, 43));
+    background: radial-gradient(rgb(192, 192, 192), rgb(43, 43, 43), black);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1em;
@@ -204,6 +248,15 @@ footer a:hover {
     text-align: center;
 }
 
+#area-return {
+    padding: 1.5em;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: navy;
+}
+
 .area-button-filter {
     display: flex;
     justify-content: space-around;
@@ -215,8 +268,8 @@ footer a:hover {
     text-transform: capitalize;
     border-radius: 5px;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: navy;
 }
 
 .attraction-type-filter {
@@ -226,12 +279,13 @@ footer a:hover {
 }
 
 .attraction-type-filter button {
-    padding: 1.5em;
+    padding: 1em 1.5em;
     text-transform: capitalize;
     border-radius: 5px;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: navy;
+    width: 100px;
 }
 
 .attraction-content {
@@ -244,10 +298,18 @@ footer a:hover {
     background-color: black;
     padding: 1em;
     margin: 1em;
-    width: 40%;
+    width: 60%;
     border-radius: 10px;
 }
 
 .attraction-card h3 {
     text-align: center;
+}
+
+.attraction-card p {
+    background: radial-gradient(circle, white, lightblue);
+    padding: 1em;
+    color: black;
+    text-shadow: none;
+    overflow: hidden;
 }

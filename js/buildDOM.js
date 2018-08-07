@@ -9,7 +9,7 @@ function buildDOM(){
     const footer = document.createElement("footer");
     const main = document.createElement("main");
     header.innerHTML = `<h1>NSS Amusement Arcade</h1>`;
-    footer.innerHTML = `<p><small>&copy; Team Awesome</small></p><a href="nashvillesoftwareschool.com">Nashville Software School</a>`;
+    footer.innerHTML = `<p><small>&copy; Ricky Bruner</small></p><a href="nashvillesoftwareschool.com">Nashville Software School</a>`;
     body.insertBefore(header, script);
     body.insertBefore(main, script);
     body.insertBefore(footer, script);
