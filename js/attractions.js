@@ -1,6 +1,8 @@
 "use strict";
 
 let db = require('./db-calls.js');
+let makeTypeArea = require("./typeButton.js");
+let makeAreas = require("./areaCards.js");
 let beginAttractions = require('./beginAttractionBuild.js');
 
 let areas;
@@ -19,6 +21,8 @@ db.fetchAreas().then((result) => {
             console.log("attractions:", attractions);
             console.log("types:", types);
             console.log("areas:", areas);
+            makeTypeArea(types);
+            makeAreas(areas);
             beginAttractions(areas, types, attractions);
         });
     });

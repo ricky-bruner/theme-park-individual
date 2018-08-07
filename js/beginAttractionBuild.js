@@ -6,9 +6,10 @@ function beginAttractions(areas, types, attractions){
     let mainAttractionDiv = document.querySelector(".attraction-container");
     mainAttractionDiv.innerHTML = 
         `<div class="area-filter">
-            <h2>Choose an Area to view it's attractions!</h2>        
+            <h2>Choose an Area to view it's attractions!</h2>   
+            <div class="area-button-filter"></div>     
         </div>`;
-    let areaFilter = document.querySelector(".area-filter");
+    let areaFilter = document.querySelector(".area-button-filter");
     areas.forEach(area => {
         areaFilter.innerHTML += 
             `<button id="area--${area.id}">${area.name}</button>`;
