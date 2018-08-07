@@ -2,54 +2,6 @@ body {
     background-color: rgb(224, 224, 224);
 }
 
-.type-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 1.5em;
-    margin-bottom: 1.3em;
-}
-
-.type-container button {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c3c745), color-stop(1, #d92727));
-	background:-moz-linear-gradient(top, #c3c745 5%, #d92727 100%);
-	background:-webkit-linear-gradient(top, #c3c745 5%, #d92727 100%);
-	background:-o-linear-gradient(top, #c3c745 5%, #d92727 100%);
-	background:-ms-linear-gradient(top, #c3c745 5%, #d92727 100%);
-	background:linear-gradient(to bottom, #c3c745 5%, #d92727 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c3c745', endColorstr='#d92727',GradientType=0);
-	background-color:#c3c745;
-	-moz-border-radius:9px;
-	-webkit-border-radius:9px;
-	border-radius:9px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	padding:10px 23px;
-	text-decoration:none;
-	text-shadow:-1px -1px 0px #28662c;
-}
-.type-container button {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d92727), color-stop(1, #c3c745));
-	background:-moz-linear-gradient(top, #d92727 5%, #c3c745 100%);
-	background:-webkit-linear-gradient(top, #d92727 5%, #c3c745 100%);
-	background:-o-linear-gradient(top, #d92727 5%, #c3c745 100%);
-	background:-ms-linear-gradient(top, #d92727 5%, #c3c745 100%);
-	background:linear-gradient(to bottom, #d92727 5%, #c3c745 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d92727', endColorstr='#c3c745',GradientType=0);
-	background-color:#d92727;
-}
-.type-container button {
-	position:relative;
-	top:1px;
-}
-.type-container button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-/*.type-container button{
-    text-transform: capitalize;
-}*/
 header, footer {
     padding: 1em;
     text-align: center;
@@ -117,9 +69,185 @@ footer a:hover {
     text-align: left;
 }
 
+.area-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: radial-gradient(rgb(192, 192, 192), rgb(43, 43, 43));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+.bottom-div {
+    display: flex;
+    width: 45%;
+    min-height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.area-container div div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.area-container h2 {
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.area-container p {
+    padding: 1em;
+    margin-bottom: 2em;
+    text-shadow: black 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    border-radius: 5px;
+}
+
+#bg-image-1 {
+    background-image: url("https://secure.cdn1.wdpromedia.com/resize/mwImage/1/630/354/75/dam/wdpro-assets/dlr/things-to-do/shops/disneyland/silhouette-studio/silhouette-studio-00.jpg?1507755330994");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Permanent Marker', cursive;
+    /* letter-spacing: 2px; */
+}
+
+#bg-image-2 {
+    background-image: url("https://photos.smugmug.com/Travel/WDW-June2010/i-vX3ggnx/0/552229ea/L/Adventureland%20053111-L.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#bg-image-3 {
+    background-image: url("http://livingadisneylife.com/wp-content/uploads/2014/09/DSCN2783.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#bg-image-4 {
+    background-image: url("https://secure.cdn1.wdpromedia.com/resize/mwImage/1/630/354/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/the-hall-of-presidents/hall-of-presidents-04.jpg?1520710334568");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bg-image-5 {
+    background-image: url("https://c1.staticflickr.com/4/3220/2953441456_496373c25e_b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#bg-image-6 {
+    background-image: url("https://i.ytimg.com/vi/ep7w_WJX7nw/hqdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Fugaz One', cursive;
+}
+
+#bg-image-6 h2 {
+    text-transform: uppercase;
+}
+
+#bg-image-7 {
+    background-image: url("http://www.vivaorlando.com.br/wp-content/uploads/2017/02/MAGIC.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Great Vibes', cursive;
+}
+
+#bg-image-7 h2 {
+    font-size: 3em;
+}
 
 .attraction-container {
-    background: radial-gradient(circle, dimgrey, black) fixed;
+    background: radial-gradient(circle, rgb(60, 176, 214), navy, black) fixed;
     color: orange;
     padding: 1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:
+		-1px -1px 0 rgb(175, 96, 0),
+		1px -1px 0 rgb(175, 96, 0),
+		-1px 1px 0 rgb(175, 96, 0),
+        1px 1px 0 rgb(175, 96, 0);
+    min-height: 600px;
+}
+
+.attraction-filter {
+    text-align: center;
+}
+
+.area-filter {
+    text-align: center;
+}
+
+.area-button-filter {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.area-button-filter button {
+    padding: 1.5em;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.attraction-type-filter {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.attraction-type-filter button {
+    padding: 1.5em;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.attraction-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.attraction-card {
+    background-color: black;
+    padding: 1em;
+    margin: 1em;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.attraction-card h3 {
+    text-align: center;
 }
